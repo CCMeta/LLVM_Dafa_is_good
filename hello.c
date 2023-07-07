@@ -1,9 +1,9 @@
-#include <stdio.h>
+#include "hello.h"
 
-int main (int argc, char**argv)
+int test()
 {
-  printf("---------------------------\r\n");
-  printf("[CCMETA] mother fucker test of windows compile\r\n");
-  printf("---------------------------\r\n");
-  return 0;
+    printf("---------------------------\r\n");
+    printf("[CCMETA] mother fucker test of windows compile\r\n");
+    printf("---------------------------\r\n");
+    return 0;
 }
